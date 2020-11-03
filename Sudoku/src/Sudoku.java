@@ -1,7 +1,4 @@
 import Sudoku.Generate;
-import java.util.Collections;
-import java.util.Arrays;
-import java.util.List;
 import Sudoku.Global;
 import Sudoku.is_empty;
 import Sudoku.print_board;
