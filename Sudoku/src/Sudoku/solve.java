@@ -34,7 +34,7 @@ public class solve {
 				}	
 			}
 			List<Integer> list = Arrays.asList(check_list);
-			Collections.shuffle(check_list);
+			Collections.shuffle(list);
 			list.toArray(check_list);
 		}
 	return false;
