@@ -33,6 +33,9 @@ public class solve {
 					Global.board[x][y] = 0;
 				}	
 			}
+			List<Integer> list = Arrays.asList(check_list);
+			Collections.shuffle(check_list);
+			list.toArray(check_list);
 		}
 	return false;
 	}
