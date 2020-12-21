@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane id="pane" alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="867.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="642.0" minHeight="10.0" prefHeight="582.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="169.0" minHeight="0.0" prefHeight="65.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label id="title" alignment="CENTER" prefHeight="54.0" prefWidth="416.0" text="Sudoku" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="playBtn" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="55.0" prefWidth="413.0" text="Play" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="200.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Courier New Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="SolverBtn" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="55.0" prefWidth="413.0" text="Solver" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <font>
+            <Font name="Courier New Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="bestscore" alignment="CENTER" prefHeight="67.0" prefWidth="384.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="100.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Courier New Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>
