@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import application.custom.Numberfield?>
+
+<GridPane id="pane" alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="867.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SolverController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="642.0" minHeight="10.0" prefHeight="582.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="169.0" minHeight="0.0" prefHeight="65.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <GridPane fx:id="gp" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="300.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="543.0" minWidth="10.0" prefWidth="299.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Numberfield fx:id="box13" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box8" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="1" />
+            <Numberfield fx:id="box7" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="2" />
+            <Numberfield fx:id="box18" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box17" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box16" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box27" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box26" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box25" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box6" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="3" />
+            <Numberfield fx:id="box36" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box35" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box34" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box15" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box33" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box24" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box41" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box49" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box42" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box43" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box44" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box45" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box54" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box53" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box52" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box51" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box50" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box63" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box62" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box61" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box60" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box72" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box71" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box70" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box69" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box68" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box59" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box81" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box80" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box79" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box78" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box77" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box5" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="4" />
+            <Numberfield fx:id="box14" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box23" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box32" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box4" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="5" />
+            <Numberfield fx:id="box9" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" />
+            <Numberfield fx:id="box22" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box31" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box40" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box58" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box67" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box76" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box3" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="6" />
+            <Numberfield fx:id="box12" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box21" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box30" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box39" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box48" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box57" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box66" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box75" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box74" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <Numberfield fx:id="box65" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box56" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box47" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box38" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box29" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box20" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box11" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box2" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="7" />
+            <Numberfield fx:id="box1" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="8" />
+            <Numberfield fx:id="box10" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Numberfield fx:id="box19" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Numberfield fx:id="box28" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Numberfield fx:id="box37" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Numberfield fx:id="box46" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #7e7ba6;" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Numberfield fx:id="box55" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Numberfield fx:id="box64" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <Numberfield fx:id="box73" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #595775;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+         </children>
+      </GridPane>
+      <Label id="title" alignment="CENTER" prefHeight="54.0" prefWidth="416.0" text="Sudoku" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="36.0" prefWidth="457.0" text="Input the sudoku above" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <font>
+            <Font name="Courier New Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn" alignment="BOTTOM_CENTER" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#handleButton" prefHeight="47.0" prefWidth="145.0" text="Solve" textAlignment="JUSTIFY" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="backButton" fitHeight="61.0" fitWidth="69.0" onMouseClicked="#handleButton" pickOnBounds="true" preserveRatio="true" GridPane.halignment="LEFT">
+         <image>
+            <Image url="@../../bin/application/images/icons8-back-64.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="525.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Button fx:id="backBtn" alignment="BOTTOM_CENTER" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#handleButton" prefHeight="47.0" prefWidth="145.0" text="Back" textAlignment="JUSTIFY" GridPane.halignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="-400.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>
